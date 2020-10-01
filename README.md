@@ -17,7 +17,7 @@ file.
 You can create a Dockerfile based on this image and use it in
 your project, here is an example:
 ```
-FROM takacsmark/php-composer:7.2.2-apache
+FROM leehuynhfvn/php-composer:7.2.2-apache
 COPY ./composer.json /var/www/html/
 RUN composer install && \
 rm -rf /var/www/html/composer-cache
